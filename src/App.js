@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Home from "../src/pages/main/Home/Home.js"
+
 
 function App() {
   return (
     <div className="App">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, veniam.</p>
+        <Home />
     </div>
   );
 }
